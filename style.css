@@ -1,0 +1,117 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body {
+    background:linear-gradient(to top, #0c0111, #2c2031);
+}
+
+
+a {
+    margin-top:5%;
+    font-family: arial;
+    color: #fff;
+    margin-left: 5%; 
+    border: none;   
+    padding: 10px;
+}
+
+
+p {
+    font-family: monospace; 
+    font-stretch: semi-expanded;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 2%;
+    color: #f3b96d;
+    border: none;   
+
+}
+
+
+button {
+    border: none;
+    width: 44px;
+    height: 34px;
+    vertical-align: middle;
+    background: #f3b96d url(mail.png) no-repeat 50% 50%;
+    color: #fff;
+    margin-left: 5%;
+    border-radius: 5px;
+    font-family: arial;
+}
+
+textarea {
+    resize: none;
+    font-family: arial;
+    height: 50px;
+    width: 87%;
+    margin-left: 5%; 
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.like_button {
+    width: 30px;
+    height: 28px;
+    float: right;
+    vertical-align: middle;
+    background: #f9eea1 url(heart.png) no-repeat 10% 10%;
+}
+
+.dislike_button {
+    width: 30px;
+    height: 28px;
+    float: right;
+    vertical-align: middle;
+    background: #f9eea1 url(heart2.png) no-repeat 10% 10%;
+}
+
+
+.comment {
+    border: 5px solid;
+    border-color:#ad5b24;
+    border-radius: 10px;
+    font-family: arial;
+    width: 87%;
+    margin-left: 5%; 
+    height: auto;
+    padding: 10px;
+    background-color: #f9eea1;
+    word-break:break-all;
+}
+
+.center {
+    width: 58%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #473d47;
+}
+
+.centerhead {
+    color: black;
+    margin-top: 15px;
+    margin-left: 41%;
+}
+
+.top {
+    height: 100px;
+    width: 98.8%;
+    padding: 10px;
+    background-color: #201026;
+}
+
+.centertext {
+    font-family: monospace; 
+    font-stretch: semi-expanded;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #f3b96d;
+    border: none;  
+}
